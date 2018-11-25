@@ -9,7 +9,6 @@ let ListData = [
     {id: 8, name: 'Kitty08', status: 'available'},
     {id: 9, name: 'Kitty09', status: 'available'},
 ];
-
 module.exports.find = (callback) => {
     callback(null, ListData);
 };
